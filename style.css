@@ -34,6 +34,30 @@ main {
     overflow-x: auto;
     width: 150px;
 }
+
 .fixed01 {
     width: 200px;
 }
+
+.table_wrp {
+    width: 150px;
+    overflow-x: auto;
+}
+table{
+    border-collapse:collapse;
+    
+  }
+table, th, td,tr {
+    border: 1px solid #000;
+}
+
+td,th {
+    padding: 10px,20px;
+    white-space: nowrap;
+}
+th{
+    //これで見出し固定できる
+    position:sticky;
+    left:0;
+    background-color:#fff;
+  }
